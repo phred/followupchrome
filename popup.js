@@ -12,20 +12,17 @@
 	var addy = document.getElementById('addy');
 	var presets = {
 		'near': {
-			'Now': '1minute',
-			'1 Hour': '1hour',
+			'Tonight': '915pm',
 			'Tomorrow': 'tomorrow'
 		},
 		'week1': {
+			'+1w': '1w',
+			'Saturday': 'saturday',
 			'Monday': 'monday',
-			'Tuesday': 'tuesday',
-			'Wednesday': 'wednesday',
 		},
 		'week2': {
-			'Thursday': 'thursday',
-			'Friday': 'friday',
-			'Saturday': 'saturday',
-			'Sunday': 'sunday'
+			'+1m': '+1month',
+			'+3m': '+3months',
 		}
 	}
 	var presetarea = document.getElementById('presetarea');
