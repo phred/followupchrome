@@ -21,8 +21,8 @@
 			'Monday': 'monday',
 		},
 		'week2': {
-			'+1m': '+1month',
-			'+3m': '+3months',
+			'+1m': '1month',
+			'+3m': '3months',
 		}
 	}
 	var presetarea = document.getElementById('presetarea');
